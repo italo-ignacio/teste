@@ -1,0 +1,32 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "prettier.tabWidth": 2,
+  "explorer.compactFolders": false,
+  "material-icon-theme.files.associations": {
+    ".env.homolog": "tune",
+    ".env.local": "tune",
+    ".env.production": "tune"
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "api",
+    "http": "server",
+    "domain": "interface",
+    "main": "global",
+    "components-hooks": "hook",
+    "presentation": "views",
+    "usecases": "redux-actions",
+    "mutations": "queue",
+    "queries": "event",
+    "requests": "api",
+    "proxies": "secure",
+    "atoms": "React-components",
+    "atoms/**": "React-components",
+    "organisms": "redux-selector",
+    "molecules": "redux-store",
+    "atomic-components": "components"
+  }
+}
